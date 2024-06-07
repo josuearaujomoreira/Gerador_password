@@ -1,0 +1,13 @@
+//Criando APP
+npx create-expo-app --template
+
+
+//Levantar aplicação
+npx expo start
+
+- cd GeriPass
+- npm run android
+- npm run ios
+- npm run web
+
+
