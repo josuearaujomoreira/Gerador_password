@@ -14,8 +14,8 @@ export function ModalPassword({ password, handleClose }) {
     return (
         <View style={styles.container}>
             <View style={styles.content}>
-                <Text style={styles.title}>Senha Gerada</Text>
-
+                <Text style={styles.title}>Senha Gerada!</Text>
+                <Text style={styles.Subtitle}>Aperte e segure e cima da senha para copiar</Text>
                 <Pressable style={styles.innerPassword} onLongPress={handleCopyPassword}>
                     <Text style={styles.textpass}>{password}</Text>
                 </Pressable>
@@ -70,6 +70,11 @@ const styles = StyleSheet.create({
     textpass: {
         color: '#FFF',
         textAlign: 'center'
+    },
+    Subtitle: {
+        color: 'red',
+        textAlign: 'center',
+        marginBottom: 14
     },
 
     buttonArea: {
