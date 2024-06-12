@@ -33,7 +33,7 @@ export function Routes() {
                 component={Passwords}
                 options={{
                     headerShown: false,
-                  /*   tabBarShowLabel: false, */
+                    /*   tabBarShowLabel: false, */
                     tabBarIcon: ({ focused, size, color }) => {
                         if (focused) {
                             return <Ionicons size={size} color={color} name="lock-closed" />
@@ -49,13 +49,13 @@ export function Routes() {
                 component={Cadastrar_Pass}
                 options={{
                     headerShown: false,
-                   /*  tabBarShowLabel: false, */
+                    /*  tabBarShowLabel: false, */
                     tabBarIcon: ({ focused, size, color }) => {
                         if (focused) {
-                            return <Ionicons size={size} color={color} name="home" />
+                            return <Ionicons size={size} color={color} name="add-circle" />
                         }
 
-                        return <Ionicons size={size} color={color} name="home-outline" />
+                        return <Ionicons size={size} color={color} name="add-circle-outline" />
                     }
                 }}
             />
